@@ -2,78 +2,78 @@
 <testng-results total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-07-24T00:04:04Z" name="Suite" finished-at="2018-07-24T00:04:24Z" duration-ms="20335">
+  <suite started-at="2018-07-24T00:28:05Z" name="Suite" finished-at="2018-07-24T00:28:32Z" duration-ms="26405">
     <groups>
     </groups>
-    <test started-at="2018-07-24T00:04:04Z" name="Test" finished-at="2018-07-24T00:04:24Z" duration-ms="20335">
+    <test started-at="2018-07-24T00:28:05Z" name="Test" finished-at="2018-07-24T00:28:32Z" duration-ms="26405">
       <class name="testLib.LoginPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:11Z" name="setUp" finished-at="2018-07-24T05:34:15Z" duration-ms="3367" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:13Z" name="setUp" finished-at="2018-07-24T05:58:18Z" duration-ms="4193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="navigateToLoginTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:15Z" name="navigateToLoginTest" finished-at="2018-07-24T05:34:15Z" duration-ms="932" status="PASS">
+        <test-method signature="navigateToLoginTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:18Z" name="navigateToLoginTest" finished-at="2018-07-24T05:58:19Z" duration-ms="1029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToLoginTest -->
-        <test-method signature="loginWithEmptyCredentialsTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:15Z" name="loginWithEmptyCredentialsTest" finished-at="2018-07-24T05:34:16Z" duration-ms="326" status="PASS">
+        <test-method signature="loginWithEmptyCredentialsTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:19Z" name="loginWithEmptyCredentialsTest" finished-at="2018-07-24T05:58:20Z" duration-ms="210" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithEmptyCredentialsTest -->
-        <test-method signature="loginWithInvalidCredentialsTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:16Z" name="loginWithInvalidCredentialsTest" finished-at="2018-07-24T05:34:16Z" duration-ms="653" status="PASS">
+        <test-method signature="loginWithInvalidCredentialsTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:20Z" name="loginWithInvalidCredentialsTest" finished-at="2018-07-24T05:58:21Z" duration-ms="583" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithInvalidCredentialsTest -->
-        <test-method signature="loginWithUnregisteredCredentialsTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:16Z" name="loginWithUnregisteredCredentialsTest" finished-at="2018-07-24T05:34:17Z" duration-ms="689" status="PASS">
+        <test-method signature="loginWithUnregisteredCredentialsTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:21Z" name="loginWithUnregisteredCredentialsTest" finished-at="2018-07-24T05:58:22Z" duration-ms="671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithUnregisteredCredentialsTest -->
-        <test-method signature="verifyForgotPasswordLinkTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:17Z" name="verifyForgotPasswordLinkTest" finished-at="2018-07-24T05:34:18Z" duration-ms="641" status="PASS">
+        <test-method signature="verifyForgotPasswordLinkTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:22Z" name="verifyForgotPasswordLinkTest" finished-at="2018-07-24T05:58:23Z" duration-ms="702" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyForgotPasswordLinkTest -->
-        <test-method signature="verifySignUpLinkTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:18Z" name="verifySignUpLinkTest" finished-at="2018-07-24T05:34:20Z" duration-ms="2512" status="PASS">
+        <test-method signature="verifySignUpLinkTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:23Z" name="verifySignUpLinkTest" finished-at="2018-07-24T05:58:26Z" duration-ms="2459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignUpLinkTest -->
-        <test-method signature="verifyPrivacyPolicyLinkTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:20Z" name="verifyPrivacyPolicyLinkTest" finished-at="2018-07-24T05:34:22Z" duration-ms="1400" status="PASS">
+        <test-method signature="verifyPrivacyPolicyLinkTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:26Z" name="verifyPrivacyPolicyLinkTest" finished-at="2018-07-24T05:58:27Z" duration-ms="1208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrivacyPolicyLinkTest -->
-        <test-method signature="verifyTermsAndConditionsLinkTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:22Z" name="verifyTermsAndConditionsLinkTest" finished-at="2018-07-24T05:34:23Z" duration-ms="860" status="PASS">
+        <test-method signature="verifyTermsAndConditionsLinkTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:28Z" name="verifyTermsAndConditionsLinkTest" finished-at="2018-07-24T05:58:29Z" duration-ms="1228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTermsAndConditionsLinkTest -->
-        <test-method signature="loginWithValidCredentialsTest()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:23Z" name="loginWithValidCredentialsTest" finished-at="2018-07-24T05:34:24Z" duration-ms="1479" status="PASS">
+        <test-method signature="loginWithValidCredentialsTest()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:29Z" name="loginWithValidCredentialsTest" finished-at="2018-07-24T05:58:31Z" duration-ms="1610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidCredentialsTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testLib.LoginPageTests@70325e14]" started-at="2018-07-24T05:34:24Z" name="afterClass" finished-at="2018-07-24T05:34:24Z" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testLib.LoginPageTests@6f4a47c7]" started-at="2018-07-24T05:58:31Z" name="afterClass" finished-at="2018-07-24T05:58:32Z" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testLib.LoginPageTests -->
       <class name="testLib.HomePageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testLib.HomePageTests@7d8704ef]" started-at="2018-07-24T05:34:04Z" name="setUp" finished-at="2018-07-24T05:34:08Z" duration-ms="4236" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testLib.HomePageTests@4e50c791]" started-at="2018-07-24T05:58:05Z" name="setUp" finished-at="2018-07-24T05:58:09Z" duration-ms="3789" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginButtonEnabledTest()[pri:0, instance:testLib.HomePageTests@7d8704ef]" started-at="2018-07-24T05:34:08Z" name="LoginButtonEnabledTest" finished-at="2018-07-24T05:34:08Z" duration-ms="98" status="PASS">
+        <test-method signature="LoginButtonEnabledTest()[pri:0, instance:testLib.HomePageTests@4e50c791]" started-at="2018-07-24T05:58:09Z" name="LoginButtonEnabledTest" finished-at="2018-07-24T05:58:09Z" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginButtonEnabledTest -->
-        <test-method signature="LoginButtonDisplayedTest()[pri:0, instance:testLib.HomePageTests@7d8704ef]" started-at="2018-07-24T05:34:08Z" name="LoginButtonDisplayedTest" finished-at="2018-07-24T05:34:08Z" duration-ms="44" status="PASS">
+        <test-method signature="LoginButtonDisplayedTest()[pri:0, instance:testLib.HomePageTests@4e50c791]" started-at="2018-07-24T05:58:10Z" name="LoginButtonDisplayedTest" finished-at="2018-07-24T05:58:10Z" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginButtonDisplayedTest -->
-        <test-method signature="LoginButtonFunctionalityTest()[pri:0, instance:testLib.HomePageTests@7d8704ef]" started-at="2018-07-24T05:34:08Z" name="LoginButtonFunctionalityTest" description="Verifies the landing page based on correct URL, Header and Title" finished-at="2018-07-24T05:34:09Z" duration-ms="1060" status="PASS">
+        <test-method signature="LoginButtonFunctionalityTest()[pri:0, instance:testLib.HomePageTests@4e50c791]" started-at="2018-07-24T05:58:11Z" name="LoginButtonFunctionalityTest" description="Verifies the landing page based on correct URL, Header and Title" finished-at="2018-07-24T05:58:12Z" duration-ms="1017" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginButtonFunctionalityTest -->
-        <test-method signature="NavigateBackToHomePageTest()[pri:0, instance:testLib.HomePageTests@7d8704ef]" started-at="2018-07-24T05:34:09Z" name="NavigateBackToHomePageTest" finished-at="2018-07-24T05:34:11Z" depends-on-methods="testLib.HomePageTests.LoginButtonFunctionalityTest" duration-ms="1795" status="PASS">
+        <test-method signature="NavigateBackToHomePageTest()[pri:0, instance:testLib.HomePageTests@4e50c791]" started-at="2018-07-24T05:58:12Z" name="NavigateBackToHomePageTest" finished-at="2018-07-24T05:58:13Z" depends-on-methods="testLib.HomePageTests.LoginButtonFunctionalityTest" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateBackToHomePageTest -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testLib.HomePageTests@7d8704ef]" started-at="2018-07-24T05:34:11Z" name="afterClass" finished-at="2018-07-24T05:34:11Z" duration-ms="132" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testLib.HomePageTests@4e50c791]" started-at="2018-07-24T05:58:13Z" name="afterClass" finished-at="2018-07-24T05:58:13Z" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

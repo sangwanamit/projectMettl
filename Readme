@@ -1,1 +1,9 @@
-projectMettl
+projectMettl:
+
+	Selenium-java v3.12.0
+	Testng v6.8
+	commons-io v2.4
+    Apache.poi-ooxml v3.10
+    Apache.poi v3.12
+    Apache Maven 3.5.3
+    

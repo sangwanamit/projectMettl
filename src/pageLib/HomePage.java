@@ -9,7 +9,7 @@ public class HomePage extends Base {
 	
 	@FindBy (xpath = "//a[contains(@data-type,'ogin')]") public WebElement loginBtn ; 
 	
-	public void click() {
+	public void navigateToLoginPage() {
 		loginBtn.click();
 	}
 	
