@@ -12,11 +12,20 @@ public class WebDriverCommons extends Base{
 		wait.until(ExpectedConditions.alertIsPresent());
 	}
 
-	public void waitTillElementToBeClickable(WebElement locator) {
+	public static void waitTillElementToBeClickable(WebElement locator) {
 		WebDriverWait wait =  new WebDriverWait(driver,15);
 		wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
 
+	public static void waitTillURLContains(String fraction) {
+		WebDriverWait wait =  new WebDriverWait(driver,15);
+		wait.until(ExpectedConditions.urlContains(fraction));
+	}
+	
+	public static void waitTillElementToBeDisplayed(WebElement element) {
+		WebDriverWait wait =  new WebDriverWait(driver,15);
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
 	
 
 	

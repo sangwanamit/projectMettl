@@ -3,12 +3,24 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="testLib.LoginTests">
+      <class name="testLib.LoginPageTests">
         <methods>
-          <include name="browserLaunch"/>
+          <include name="verifyPrivacyPolicyLinkTest"/>
+          <include name="loginWithValidCredentialsTest"/>
+          <include name="verifySignUpLinkTest"/>
           <include name="setUp"/>
+          <include name="loginWithUnregisteredCredentialsTest"/>
+          <include name="afterClass"/>
+          <include name="verifyTermsAndConditionsLinkTest"/>
+          <include name="verifyForgotPasswordLinkTest"/>
         </methods>
-      </class> <!-- testLib.LoginTests -->
+      </class> <!-- testLib.LoginPageTests -->
+      <class name="testLib.HomePageTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- testLib.HomePageTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

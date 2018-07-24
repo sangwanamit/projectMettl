@@ -10,7 +10,8 @@ import org.openqa.selenium.TakesScreenshot;
 public class CommonLib extends Base {
 	
 	// Method to take screenshot and will be called by Listener on test failure.
-	 public static void takeScreenShot(String screenshotName) {
+	
+	public static void takeScreenShot(String screenshotName) {
 		 String fileDestination = ".//screenshots/" + screenshotName + ".jpeg" ; 
 
 		 TakesScreenshot capture =  ((TakesScreenshot) driver);
